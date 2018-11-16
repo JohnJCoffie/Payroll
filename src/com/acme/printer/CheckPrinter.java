@@ -1,5 +1,7 @@
 package com.acme.printer;
 
-public interface CheckPrinter {
+import java.util.List;
 
+public interface CheckPrinter {
+	void print(List<Paycheck> checks);
 }
